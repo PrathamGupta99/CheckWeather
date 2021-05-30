@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#cardHeader {
+  text-align: center;
+  font-size: 43px;
+  font-family: none;
+  font-family: cursive;
+}
+
+#searchBar {
+  display: flex;
+  flex-direction: row;
+}
+
+#card {
+  display: block;
+  margin: auto;
+  border: 4px solid black;
+  width: 22rem;
+  background: #f0f0f0;
+}
+#cardImg {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin: 0px auto;
+  /* margin-bottom: 0px; */
+}
+
+#cardBody {
+  padding: 0px;
+}
+
+#cardTitle {
+  text-align: center;
+  font-size: 3.5rem;
+  margin: 0px;
+  padding: 0px;
+}
+
+#cardDescription {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0px;
+  padding: 0px;
+  text-transform: capitalize;
+}
+
+#cardCity {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 0px;
+  padding: 0px;
+}
+
+#cardMore {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.07);
+  font-size: 1rem;
+  margin: 1px;
+  padding: 1px;
+  /* text-decoration: underline; */
+  cursor: pointer;
+  color: blue;
+}
+#cardFooter {
+  display: flex;
+  flex-direction: row;
+}
+
+#daily {
+  background: rgba(0, 0, 0, 0.14);
+  cursor: pointer;
+  padding: 9px;
+  border-right: 1px solid black;
+  width: 50%;
+  border-top: 2px solid black;
+  font-family: cursive;
+  text-align: center;
+  font-size: 1.2rem;
+}
+#hourly {
+  font-size: 1.2rem;
+  font-family: cursive;
+  background: rgba(0, 0, 0, 0.14);
+  text-align: center;
+  padding: 9px;
+  border-left: 1px solid black;
+  border-top: 2px solid black;
+  cursor: pointer;
+  /* border: 2px solid black; */
+  width: 50%;
+}
+
+.none {
+  display: none;
+}
+.center {
+  text-align: center;
+}
+.transform {
+  text-transform: capitalize;
+}
+
+#mainHeader {
+  font-family: cursive;
+  font-size: 2.4rem;
+  text-align: center;
+}
