@@ -126,7 +126,7 @@ function searchButtonHandler() {
 
     word = search.value
     //console.log(word)
-    url = `http://api.openweathermap.org/data/2.5/weather?q=${word}&units=metric&appid=d1953374c70bb8ca621fdb65259bb2cf`
+    url = `https://api.openweathermap.org/data/2.5/weather?q=${word}&units=metric&appid=d1953374c70bb8ca621fdb65259bb2cf`
 
     var hourlylyTable = document.getElementById('hourlyTable').classList.add('none')
     var hourlylyTable = document.getElementById('dailyTable').classList.add('none')
